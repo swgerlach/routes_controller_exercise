@@ -8,7 +8,11 @@
 </head>
 <body>
 
+<%= params[:format] %>
 <%= yield %>
+
+<%= link_to "User List", users_path %>
+<%= link_to "Product List", products_path %>
 
 </body>
 </html>
